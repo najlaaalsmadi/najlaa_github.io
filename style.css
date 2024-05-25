@@ -1,0 +1,333 @@
+body{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.brand{
+    color: rgb(47, 4, 241);
+}
+.header{
+    background-color: #616D84;
+    color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Home ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  .Home li {
+    float: left;
+  }
+  
+  .Home li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .Home li a:hover{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .Home{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .Home h1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .Home button{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  }
+  .Home button:hover{
+    background-color: rgb(42, 143, 232);
+  }
+  .Home .cv{
+    text-decoration: none;
+    
+    font-size: 20px;
+    color: white;
+  }
+  .Home img{
+
+   border-radius: 40px;
+  }
+
+
+.navbar-text button{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: white;
+  }
+ .navbar-text button:hover{
+    background-color: rgb(42, 143, 232);
+    border-radius: 20px;
+    color: white;
+  }
+  .Email{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  .nav-link{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Home .text p{
+font-size: 23px;
+padding: 28px;
+  }
+  .information {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .information button{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+
+  }
+  .information button:hover .active{
+    background-color: rgb(42, 143, 232);
+    border-radius: 20px;
+    color: white;
+  }
+ 
+  .information .text p{
+    font-size: 23px;
+    padding: 28px;
+      }
+  .information img{
+    width: 60%;
+    height: auto;
+    border-radius: 40px;
+   }
+   .information ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  .information li {
+    float: left;
+  }
+  
+  .information  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .information li a:hover{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .pabout{
+    font-size: 19px;
+  }
+
+  .social {
+    text-align: center;
+    
+  }
+  
+  .social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social a i {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #616D84;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .social a i:hover {
+    background-color: #555;
+  }
+  .footer{
+    background-color: #616D84;
+    width: 100%;
+    top: 0;
+    color: #fff;
+  }
+  .footer ul{
+    list-style-type: none;
+    text-align: center;
+   padding-top: 20px;
+    padding-bottom: 30px;
+    color: #fff;
+  }
+  .footer ul li {
+    display: inline-block;
+    padding: 0px 15px;
+
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .Copyright{
+    text-align: center;
+  }
+  .iframe{
+  margin-left: 550px;
+  }
+  #project{
+    margin-left: 6%;
+    
+      }
+      
+  #project .text h2{
+    max-width: 100%;
+    line-height: 64px;
+    color: white;
+  }
+#Projects_me 
+{
+  margin-left: 6%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+#Projects_me .text h2{
+  max-width: 100%;
+  line-height: 64px;
+  color: white;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row{
+  margin: 0 -5px;
+}
+.row:after{
+  content: "";
+  display: flex;
+  clear: both;
+}
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #0057FF;
+}
+
+  
+  @media (max-width: 915px) and (min-width: 344px){
+    .information{
+      display: flex;
+      flex-direction: column;
+    }
+    #Projects_me{
+      display: flex;
+      align-items:flex-start;
+      flex-direction: column;
+    }
+    .Home img{
+      width: 100%;
+      height: auto;
+      border-radius: 40px;
+     }
+     .Home h1{
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+    .Home button{
+      background-color: blue;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 5px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    }
+    .Home .text p{
+      font-size: 10px;
+      padding: 10px;
+        }
+        .information img{
+          width: 100%;
+          height: auto;
+          border-radius: 40px;
+         }
+         .footer{
+          background-color: #616D84;
+          width:auto;
+          padding: 20px 0; /* التباعد الداخلي */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+         
+        }
+        .footer ul{
+          list-style-type: none;
+          text-align: center;
+         padding-top: 7px;
+          padding-bottom: 10px;
+        }
+        .footer ul li {
+          display: flex;
+          padding: 0px 5px;
+        }
+        .footer ul li a{
+          text-decoration: none;
+        }
+        .Copyright{
+          text-align: center;
+          font-size: 10px;
+        }
+        .iframe{
+        margin-left: 0px;
+        width:auto;
+        float: center;
+        text-align: center;
+        }
+    }
